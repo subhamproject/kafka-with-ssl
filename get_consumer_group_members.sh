@@ -1,0 +1,10 @@
+#!/bin/bash
+
+CONSUMER_GROUP=$1
+
+[ -v $CONSUMER_GROUP ] && { echo "Please provide consumer group name you wish to get members of?" ; exit 1 ; }
+
+
+CMD="--describe --group $CONSUMER_GROUP --members --bootstrap-server kafka1:9092,kafka2:9092,kafka3:9092 --command-config /tmp/root.properties"
+
+docker run --rm -it -v $(pwd):/tmp --network kafka_default --entrypoint /opt/bitnami/kafka/bin/kafka-consumer-groups.sh bitnami/kafka:3.1.0 $CMD
