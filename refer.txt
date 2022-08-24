@@ -13,3 +13,4 @@ https://dbmstutorials.com/kafka/kafka-consumer-groups.html
 
 https://www.conduktor.io/kafka/kafka-topics-choosing-the-replication-factor-and-partitions-count
 https://www.xeotek.com/how-many-partitions-do-i-need-in-apache-kafka/
+https://medium.com/event-driven-utopia/understanding-kafka-topic-partitions-ae40f80552e8
