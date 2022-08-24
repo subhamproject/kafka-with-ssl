@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#30 minutes (30 minutes * 60 seconds * 1000 milliseconds = 1,800,000 milliseconds).
+#3 minutes (3 minutes x 60 seconds x 1000 milliseconds = 180000 milliseconds).
 
 KAFKA_TOPIC=$1
 RETENTION_IN_MS=${2:-300000}
