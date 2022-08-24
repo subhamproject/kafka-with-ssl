@@ -7,3 +7,9 @@ https://www.baeldung.com/kafka-message-retention
 https://digitalis.io/blog/kafka/kafka-topic-time-based-retention-policies/
 https://www.conduktor.io/kafka/kafka-consumers-in-group-cli-tutorial
 https://dbmstutorials.com/kafka/kafka-consumer-groups.html
+
+
+#kafka topics 
+
+https://www.conduktor.io/kafka/kafka-topics-choosing-the-replication-factor-and-partitions-count
+https://www.xeotek.com/how-many-partitions-do-i-need-in-apache-kafka/
