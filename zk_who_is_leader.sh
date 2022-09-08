@@ -18,3 +18,5 @@ check ${server/:*/} |grep Mode >> $LOG_FILE 2>&1
 done
 
 echo "Please check the logfile $LOG_FILE - to get information - cat it"
+clear
+cat $LOG_FILE
